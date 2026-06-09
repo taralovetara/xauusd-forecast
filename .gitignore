@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pkl
+.env
+.venv
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+data/xauusd_features.pkl
+data/xauusd_5m_sample100k.csv
