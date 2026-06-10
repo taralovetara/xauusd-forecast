@@ -1,0 +1,8 @@
+{
+    "api_key": "",
+    "account_id": "",
+    "environment": "practice",
+    "instrument": "XAU_USD",
+    "note": "Get your API key from https://www.oanda.com/account/tpa/personal_token",
+    "note2": "Use 'practice' for demo accounts, 'live' for real accounts"
+}

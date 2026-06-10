@@ -1,11 +1,27 @@
+# Python
 __pycache__/
 *.pyc
 *.pkl
-.env
-.venv
 *.egg-info/
 dist/
 build/
+.venv
 .ipynb_checkpoints/
+
+# Environment
+.env
+
+# Data (large files)
+data/XAUUSD_5m_merged.csv
 data/xauusd_features.pkl
 data/xauusd_5m_sample100k.csv
+data/XAUUSD_M5_features_v2.csv
+
+# CatBoost training artifacts
+catboost_info/
+
+# Memory (volatile)
+memory/*.json
+
+# Legacy (moved scripts from initial simple version)
+# legacy/ is kept for reference
