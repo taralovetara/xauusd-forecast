@@ -1,0 +1,30 @@
+{
+  "data_source": "14 XLSX files (2004-2015) + yfinance (Apr-Jun 2026)",
+  "total_candles": 719866,
+  "sample_size": 200000,
+  "date_range": "2012-10-22 to 2026-06-11",
+  "features": 111,
+  "train_size": 159840,
+  "val_size": 19980,
+  "test_size": 19981,
+  "models": {
+    "XGBoost": {
+      "val_acc": 0.5261761761761762,
+      "test_acc": 0.6173364696461638,
+      "hc_acc": 0.7886756692726842,
+      "hc_coverage": 21.125068815374608
+    },
+    "RandomForest": {
+      "val_acc": 0.5298798798798798,
+      "test_acc": 0.601221160102097,
+      "hc_acc": 0.9441816461684012,
+      "hc_coverage": 5.290025524248035
+    },
+    "LogisticRegression": {
+      "val_acc": 0.5252252252252252,
+      "test_acc": 0.6600770732195586,
+      "hc_acc": 0.844472049689441,
+      "hc_coverage": 20.14413693008358
+    }
+  }
+}
